@@ -7,5 +7,6 @@ Standards-Version: 3.7.2
 
 Package: seedboxsync
 Architecture: all
+Depends: lftp
 Description: Automatic seedbox downloader
  Retrieves completed downloads from a seedbox automatically.
