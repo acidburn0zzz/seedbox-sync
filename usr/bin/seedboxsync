@@ -1,0 +1,8 @@
+#!/bin/bash
+cd /usr/share/seedboxsync/
+date > list.txt
+find completed >> list.txt
+lftp -f seedboxsync.conf
+date >> list.txt
+du -h completed/* >> list.txt
+find completed >> list.txt

@@ -1,0 +1,4 @@
+- Rename seedboxsync.conf.sample to seedboxsync.conf 
+- Replace with your seedbox SFTP info where appropriate (username, password, port, password)
+- On your seedbox, move the content you want downloaded to "downloads/completed"
+- Seedboxsync will then automatically mirror that directory locally to /usr/share/seedboxsync
