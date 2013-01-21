@@ -1,3 +1,9 @@
+seedboxsync (1.0.2) nadia; urgency=low
+
+  * Better reporting
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 21 Jan 2013 23:41:00 +0000
+
 seedboxsync (1.0.1) nadia; urgency=low
 
   * Added dependency on lftp

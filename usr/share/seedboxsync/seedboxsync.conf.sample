@@ -1,5 +1,5 @@
 open -u username,password -p port sftp://URL
 cd downloads
-mirror -c completed
 put list.txt
+mirror -c completed
 quit

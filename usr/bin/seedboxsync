@@ -1,8 +1,13 @@
 #!/bin/bash
 cd /usr/share/seedboxsync/
 date > list.txt
+echo "" >> list.txt
+echo "FILES" >> list.txt
+echo "-----" >> list.txt
 find completed >> list.txt
-lftp -f seedboxsync.conf
-date >> list.txt
+echo "" >> list.txt
+echo "SIZES" >> list.txt
+echo "-----" >> list.txt
 du -h completed/* >> list.txt
-find completed >> list.txt
+lftp -f seedboxsync.conf
+
